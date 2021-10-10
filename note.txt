@@ -43,3 +43,5 @@ https://pqina.nl/filepond/docs/api/plugins/image-resize/
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+npm install method-override
+Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
