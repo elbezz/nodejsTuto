@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/61550ad2df8bf6e8eb3c19bd
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Sofiane",
+    "subscriberToChannel":"elbezzintoss"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6155d6d6ffffe5a4d0d85afd
+
+###
+PATCH http://localhost:3000/subscribers/6155d6d6ffffe5a4d0d85afd
+Content-Type: application/json
+
+{
+    "name":"updated Sofiane"
+}

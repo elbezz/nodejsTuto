@@ -1,0 +1,43 @@
+To add to an existing github repo:
+git add .
+git commit -m "initial author Routes"
+git push
+
+To push to heroku
+git add .
+git commit -m "initial author Routes"
+git push heroku
+
+to deal with file upload we must install multer
+npm i multer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+in order to save our files into a database directely instead in the server we're gonna use a library called "fileponde" witch make uploading our files much easier and allows us to have a very cool file preview in the browser
+in order to use filepond we need to go to the documentation page and download the cdn witch we can include in our project 
+go to: https://pqina.nl/filepond/docs/getting-started/installation/javascript/
+
+copy the cdn:
+<link href="https://unpkg.com/filepond@^4/dist/filepond.css" rel="stylesheet" />
+<script src="https://unpkg.com/filepond@^4/dist/filepond.js"></script>
+and include it in the layout section: layout.ejs
+
+also we need to download some other cdn for the previewgo to:
+https://pqina.nl/filepond/docs/api/plugins/file-encode/
+and copy the cdn
+<script src="https://unpkg.com/filepond-plugin-file-encode/dist/filepond-plugin-file-encode.js"></script>
+also download image preview pluging from
+https://pqina.nl/filepond/docs/api/plugins/image-preview/
+
+copy the stylesheet and the script
+<link
+    href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css"
+    rel="stylesheet"
+/>
+<script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+
+also download the image resize pluging: we don't want to store huge images in our server
+go to
+https://pqina.nl/filepond/docs/api/plugins/image-resize/
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
