@@ -26,8 +26,6 @@ if(req.query.title != null && req.query.title !=''){
     res.redirect('/')
   }
   })
-
-
 // new book Route
 router.get("/new", async (req, res) => {
   renderNewPage(res, new Book());
