@@ -45,3 +45,14 @@ https://pqina.nl/filepond/docs/api/plugins/image-resize/
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 npm install method-override
 Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
+-----------------------------------------------------------------------------------------
+to download specefic folder from github:
+go to https://gitzip.org/
+download google extention
+in github double click on the space next to the folder you'd like to download
+on the buttom right --->> download the zipfile
+------------------------------------------------------------------------------------------
+to make the life easier working with font:
+it'll trasform any font to web accecible, web usable font incredibly easy!
+go to https://transfonter.org/
+add the fonts and convert them
